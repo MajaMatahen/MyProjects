@@ -1,0 +1,991 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Brainster Labs</title>
+
+    <meta charset="utf-8" />
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta name="author" content="Maja Matahen" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+
+    <!-- Local CSS -->
+    <link rel="stylesheet" href="style.css" />
+    
+
+    <!-- Latest compiled and minified Bootstrap 4.4.1 CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- Navbar with sidenav for mobile version -->
+
+    <nav class="navbar navbar-expand-lg bg-menu navbar-light">
+      <div class="container-fluid">
+        <a class="navbar-brand brand" href="index.html">
+          <img src="./images/logo.png" alt="Brainster"/>
+          <figcaption class="brandname">Brainster</figcaption>
+        </a>
+
+        <!-- Burger icon for mobile  -->
+        <a class="menu__icon"><span></span></a>
+
+        
+        <!-- _______________________________________  -->
+
+        <div class="animate borderXwidth">
+          <ul class="navbar-nav menu">
+            <li class="nav-item active">
+              <a
+                class="nav-link"
+                href="https://marketpreneurs.brainster.co/"
+                target="_blank"
+                >Академија за маркетинг
+                <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="http://codepreneurs.co/" target="_blank"
+                >Академија за програмирање</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="https://datascience.brainster.co/"
+                target="_blank"
+                >Академија за data science</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="https://design.brainster.co/"
+                target="_blank"
+                >Академија за дизајн</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class=" btn btn-bg vraboti" href="vrabotuvanje.html">
+                Вработи наш студент
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Banner  -->
+    <div class="container-fluid">
+      <div class="row banner">
+        <div
+          class="col overlay d-flex align-items-center justify-content-center"
+        >
+          <h1 class="text-size text-capitalize">Brainster labs</h1>
+        </div>
+      </div>
+    </div>
+
+    <!-- Checkbox parts for filtering  -->
+
+    <div class="container-fluid">
+      <form>
+        <div class="row">
+          <div class="col-lg-4 col-12 bg-parts">
+            <label for="show-marketing" class="container"
+              >Проекти на студенти по академијата за маркетинг
+              <input type="checkbox" id="show-marketing" />
+              <span class="checkmark"></span>
+            </label>
+          </div>
+          <div class="col-lg-4 col-12 bg-parts">
+            <label for="show-programming" class="container"
+              >Проекти на студенти по академијата за програмирање
+              <input type="checkbox" id="show-programming" />
+              <span class="checkmark"></span>
+            </label>
+          </div>
+          <div class="col-lg-4 col-12 bg-parts">
+            <label for="show-design" class="container"
+              >Проекти на студенти по академијата за дизајн
+              <input type="checkbox" id="show-design" />
+              <span class="checkmark"></span>
+            </label>
+          </div>
+        </div>
+      </form>
+    </div>
+    <!-- Cards  -->
+
+    <div class="container-fluid bg-yellow">
+      <div class="row py-5">
+        <div
+          class="col-lg-9 mx-auto col-md-10 offset-md-1 col-sm-8 offset-sm-2 col-11 mx-auto "
+        >
+          <h2 class="proekti text-md-center text-left font-weight-bold">
+            Проекти
+          </h2>
+
+          <div class="row py-3">
+            
+
+            <div class="cardjs programming col-lg-4 col-md-6 col-12 mb-4">
+              <a href="#" class="card-link stretched-link">
+                <div class="card enlarge">
+                  <img
+                    class="card-img-top d-block w-100"
+                    src="./images/programiranje.jpg"
+                    alt="Card image cap"
+                    height="200px"
+                  />
+
+                  <div class="card-body">
+                    <span class="card-title bg-yellow px-2"
+                      >Академија за Програмирање</span
+                    >
+                    <div class="card-text">
+                      <p class="title">Име на проект</p>
+                      <p class="f-size">
+                        Some quick example text to build on the card title and
+                        make up the bulk of the card's content.
+                      </p>
+                      <small class="font-weight-bold"
+                        >April-Oktomvri 2019</small
+                      >
+                    </div>
+                    <div class="text-right mt-1">
+                      <a href="#" class="btn btn-bg text-light"
+                        >Дознај повеќе</a
+                      >
+                    </div>
+                  </div>
+                </div></a
+              >
+            </div>
+            <div class="cardjs programming col-lg-4 col-md-6 col-12 mb-4">
+              <a href="#" class="card-link stretched-link"
+                ><div class="card enlarge">
+                  <img
+                    class="card-img-top d-block w-100"
+                    src="./images/code.jpg"
+                    alt="Card image cap"
+                    height="200px"
+                  />
+
+                  <div class="card-body">
+                    <span class="card-title bg-yellow px-2"
+                      >Академија за Програмирање</span
+                    >
+                    <div class="card-text">
+                      <p class="title">Име на проект</p>
+                      <p class="f-size">
+                        Some quick example text to build on the card title and
+                        make up the bulk of the card's content.
+                      </p>
+                      <small class="font-weight-bold"
+                        >April-Oktomvri 2019</small
+                      >
+                    </div>
+                    <div class="text-right mt-1">
+                      <a href="#" class="btn btn-bg text-light"
+                        >Дознај повеќе</a
+                      >
+                    </div>
+                  </div>
+                </div></a
+              >
+            </div>
+            <div class="cardjs programming col-lg-4 col-md-6 col-12 mb-4">
+              <a href="#" class="card-link stretched-link"
+                ><div class="card enlarge">
+                  <img
+                    class="card-img-top w-100 d-block"
+                    src="./images/code (1).jpg"
+                    alt="Card image cap"
+                    height="200px"
+                  />
+
+                  <div class="card-body">
+                    <span class="card-title bg-yellow px-2"
+                      >Академија за Програмирање</span
+                    >
+                    <div class="card-text">
+                      <p class="title">Име на проект</p>
+                      <p class="f-size">
+                        Some quick example text to build on the card title and
+                        make up the bulk of the card's content.
+                      </p>
+                      <small class="font-weight-bold"
+                        >April-Oktomvri 2019</small
+                      >
+                    </div>
+                    <div class="text-right mt-1">
+                      <a href="#" class="btn btn-bg text-light"
+                        >Дознај повеќе</a
+                      >
+                    </div>
+                  </div>
+                </div></a
+              >
+            </div>
+            <div class="cardjs programming col-lg-4 col-md-6 col-12 mb-4">
+              <a href="#" class="card-link stretched-link">
+                <div class="card enlarge">
+                  <img
+                    class="card-img-top d-block w-100"
+                    src="./images/code (2).jpg"
+                    alt="Card image cap"
+                    height="200px"
+                  />
+
+                  <div class="card-body">
+                    <span class="card-title bg-yellow px-2"
+                      >Академија за Програмирање</span
+                    >
+                    <div class="card-text">
+                      <p class="title">Име на проект</p>
+                      <p class="f-size">
+                        Some quick example text to build on the card title and
+                        make up the bulk of the card's content.
+                      </p>
+                      <small class="font-weight-bold"
+                        >April-Oktomvri 2019</small
+                      >
+                    </div>
+                    <div class="text-right mt-1">
+                      <a href="#" class="btn btn-bg text-light"
+                        >Дознај повеќе</a
+                      >
+                    </div>
+                  </div>
+                </div></a
+              >
+            </div>
+            <!-- _____________________________  -->
+
+            <div class="cardjs programming col-lg-4 col-md-6 col-12 mb-4">
+              <a href="#" class="card-link stretched-link"
+                ><div class="card enlarge">
+                  <img
+                    class="card-img-top d-block w-100"
+                    src="./images/code (3).jpg"
+                    alt="Card image cap"
+                    height="200px"
+                  />
+
+                  <div class="card-body">
+                    <span class="card-title bg-yellow px-2"
+                      >Академија за Програмирање</span
+                    >
+                    <div class="card-text">
+                      <p class="title">Име на проект</p>
+                      <p class="f-size">
+                        Some quick example text to build on the card title and
+                        make up the bulk of the card's content.
+                      </p>
+                      <small class="font-weight-bold"
+                        >April-Oktomvri 2019</small
+                      >
+                    </div>
+                    <div class="text-right mt-1">
+                      <a href="#" class="btn btn-bg text-light"
+                        >Дознај повеќе</a
+                      >
+                    </div>
+                  </div>
+                </div></a
+              >
+            </div>
+            <div class="cardjs programming col-lg-4 col-md-6 col-12 mb-4">
+              <a href="#" class="card-link stretched-link"
+                ><div class="card enlarge">
+                  <img
+                    class="card-img-top d-block w-100"
+                    src="./images/code (4).jpg"
+                    alt="Card image cap"
+                    height="200px"
+                  />
+
+                  <div class="card-body">
+                    <span class="card-title bg-yellow px-2"
+                      >Академија за Програмирање</span
+                    >
+                    <div class="card-text">
+                      <p class="title">Име на проект</p>
+                      <p class="f-size">
+                        Some quick example text to build on the card title and
+                        make up the bulk of the card's content.
+                      </p>
+                      <small class="font-weight-bold"
+                        >April-Oktomvri 2019</small
+                      >
+                    </div>
+                    <div class="text-right mt-1">
+                      <a href="#" class="btn btn-bg text-light"
+                        >Дознај повеќе</a
+                      >
+                    </div>
+                  </div>
+                </div></a
+              >
+            </div>
+            <div class="cardjs programming col-lg-4 col-md-6 col-12 mb-4">
+              <a href="#" class="card-link stretched-link">
+                <div class="card enlarge">
+                  <img
+                    class="card-img-top w-100 d-block"
+                    src="./images/code4 (2).jpg"
+                    alt="Card image cap"
+                    height="200px"
+                  />
+
+                  <div class="card-body">
+                    <span class="card-title bg-yellow px-2"
+                      >Академија за Програмирање</span
+                    >
+                    <div class="card-text">
+                      <p class="title">Име на проект</p>
+                      <p class="f-size">
+                        Some quick example text to build on the card title and
+                        make up the bulk of the card's content.
+                      </p>
+                      <small class="font-weight-bold"
+                        >April-Oktomvri 2019</small
+                      >
+                    </div>
+                    <div class="text-right mt-1">
+                      <a href="#" class="btn btn-bg text-light"
+                        >Дознај повеќе</a
+                      >
+                    </div>
+                  </div>
+                </div></a
+              >
+            </div>
+            <div class="cardjs programming col-lg-4 col-md-6 col-12 mb-4">
+              <a href="#" class="card-link stretched-link">
+                <div class="card enlarge">
+                  <img
+                    class="card-img-top d-block w-100"
+                    src="./images/code4 (3).jpg"
+                    alt="Card image cap"
+                    height="200px"
+                  />
+
+                  <div class="card-body">
+                    <span class="card-title bg-yellow px-2"
+                      >Академија за Програмирање</span
+                    >
+                    <div class="card-text">
+                      <p class="title">Име на проект</p>
+                      <p class="f-size">
+                        Some quick example text to build on the card title and
+                        make up the bulk of the card's content.
+                      </p>
+                      <small class="font-weight-bold"
+                        >April-Oktomvri 2019</small
+                      >
+                    </div>
+                    <div class="text-right mt-1">
+                      <a href="#" class="btn btn-bg text-light"
+                        >Дознај повеќе</a
+                      >
+                    </div>
+                  </div>
+                </div></a
+              >
+            </div>
+            <!-- _______________________________________________  -->
+
+            <div class="cardjs programming col-lg-4 col-md-6 col-12 mb-4">
+              <a href="#" class="card-link stretched-link">
+                <div class="card enlarge">
+                  <img
+                    class="card-img-top d-block w-100"
+                    src="./images/code4 (7).jpg"
+                    alt="Card image cap"
+                    height="200px"
+                  />
+
+                  <div class="card-body">
+                    <span class="card-title bg-yellow px-2"
+                      >Академија за Програмирање</span
+                    >
+                    <div class="card-text">
+                      <p class="title">Име на проект</p>
+                      <p class="f-size">
+                        Some quick example text to build on the card title and
+                        make up the bulk of the card's content.
+                      </p>
+                      <small class="font-weight-bold"
+                        >April-Oktomvri 2019</small
+                      >
+                    </div>
+                    <div class="text-right mt-1">
+                      <a href="#" class="btn btn-bg text-light"
+                        >Дознај повеќе</a
+                      >
+                    </div>
+                  </div>
+                </div></a
+              >
+            </div>
+            <div class="cardjs programming col-lg-4 col-md-6 col-12 mb-4">
+              <a href="#" class="card-link stretched-link"
+                ><div class="card enlarge">
+                  <img
+                    class="card-img-top d-block w-100"
+                    src="./images/program.jpg"
+                    alt="Card image cap"
+                    height="200px"
+                  />
+
+                  <div class="card-body">
+                    <span class="card-title bg-yellow px-2"
+                      >Академија за Програмирање</span
+                    >
+                    <div class="card-text">
+                      <p class="title">Име на проект</p>
+                      <p class="f-size">
+                        Some quick example text to build on the card title and
+                        make up the bulk of the card's content.
+                      </p>
+                      <small class="font-weight-bold"
+                        >April-Oktomvri 2019</small
+                      >
+                    </div>
+                    <div class="text-right mt-1">
+                      <a href="#" class="btn btn-bg text-light"
+                        >Дознај повеќе</a
+                      >
+                    </div>
+                  </div>
+                </div></a
+              >
+            </div>
+            <div class="cardjs marketing col-lg-4 col-md-6 col-12 mb-4">
+              <a href="#" class="card-link stretched-link"
+                ><div class="card enlarge">
+                  <img
+                    class="card-img-top w-100 d-block"
+                    src="./images/marketing6.jpg"
+                    alt="Card image cap"
+                    height="200px"
+                  />
+
+                  <div class="card-body">
+                    <span class="card-title bg-yellow px-2"
+                      >Академија за Маркетинг</span
+                    >
+                    <div class="card-text">
+                      <p class="title">Име на проект</p>
+                      <p class="f-size">
+                        Some quick example text to build on the card title and
+                        make up the bulk of the card's content.
+                      </p>
+                      <small class="font-weight-bold"
+                        >April-Oktomvri 2019</small
+                      >
+                    </div>
+                    <div class="text-right mt-1">
+                      <a href="#" class="btn btn-bg text-light"
+                        >Дознај повеќе</a
+                      >
+                    </div>
+                  </div>
+                </div></a
+              >
+            </div>
+            <div class="cardjs marketing col-lg-4 col-md-6 col-12 mb-4">
+              <a href="#" class="card-link stretched-link">
+                <div class="card enlarge">
+                  <img
+                    class="card-img-top d-block w-100"
+                    src="./images/market.jpg"
+                    alt="Card image cap"
+                    height="200px"
+                  />
+
+                  <div class="card-body">
+                    <span class="card-title bg-yellow px-2"
+                      >Академија за Маркетинг</span
+                    >
+                    <div class="card-text">
+                      <p class="title">Име на проект</p>
+                      <p class="f-size">
+                        Some quick example text to build on the card title and
+                        make up the bulk of the card's content.
+                      </p>
+                      <small class="font-weight-bold"
+                        >April-Oktomvri 2019</small
+                      >
+                    </div>
+                    <div class="text-right mt-1">
+                      <a href="#" class="btn btn-bg text-light"
+                        >Дознај повеќе</a
+                      >
+                    </div>
+                  </div>
+                </div></a
+              >
+            </div>
+            <!-- __________________________________  -->
+            <div class="cardjs marketing col-lg-4 col-md-6 col-12 mb-4">
+              <a href="#" class="card-link stretched-link">
+                <div class="card enlarge">
+                  <img
+                    class="card-img-top d-block w-100"
+                    src="./images/marketing.jpg"
+                    alt="Card image cap"
+                    height="200px"
+                  />
+
+                  <div class="card-body">
+                    <span class="card-title bg-yellow px-2"
+                      >Академија за Маркетинг</span
+                    >
+                    <div class="card-text">
+                      <p class="title">Име на проект</p>
+                      <p class="f-size">
+                        Some quick example text to build on the card title and
+                        make up the bulk of the card's content.
+                      </p>
+                      <small class="font-weight-bold"
+                        >April-Oktomvri 2019</small
+                      >
+                    </div>
+                    <div class="text-right mt-1">
+                      <a href="#" class="btn btn-bg text-light"
+                        >Дознај повеќе</a
+                      >
+                    </div>
+                  </div>
+                </div></a
+              >
+            </div>
+            <div class="cardjs marketing col-lg-4 col-md-6 col-12 mb-4">
+              <a href="#" class="card-link stretched-link"
+                ><div class="card enlarge">
+                  <img
+                    class="card-img-top d-block w-100"
+                    src="./images/marketing1.jpg"
+                    alt="Card image cap"
+                    height="200px"
+                  />
+
+                  <div class="card-body">
+                    <span class="card-title bg-yellow px-2"
+                      >Академија за Маркетинг</span
+                    >
+                    <div class="card-text">
+                      <p class="title">Име на проект</p>
+                      <p class="f-size">
+                        Some quick example text to build on the card title and
+                        make up the bulk of the card's content.
+                      </p>
+                      <small class="font-weight-bold"
+                        >April-Oktomvri 2019</small
+                      >
+                    </div>
+                    <div class="text-right mt-1">
+                      <a href="#" class="btn btn-bg text-light"
+                        >Дознај повеќе</a
+                      >
+                    </div>
+                  </div>
+                </div></a
+              >
+            </div>
+            <div class="cardjs marketing col-lg-4 col-md-6 col-12 mb-4">
+              <a href="#" class="card-link stretched-link">
+                <div class="card enlarge">
+                  <img
+                    class="card-img-top w-100 d-block"
+                    src="./images/marketing3.jpg"
+                    alt="Card image cap"
+                    height="200px"
+                  />
+
+                  <div class="card-body">
+                    <span class="card-title bg-yellow px-2"
+                      >Академија за Маркетинг</span
+                    >
+                    <div class="card-text">
+                      <p class="title">Име на проект</p>
+                      <p class="f-size">
+                        Some quick example text to build on the card title and
+                        make up the bulk of the card's content.
+                      </p>
+                      <small class="font-weight-bold"
+                        >April-Oktomvri 2019</small
+                      >
+                    </div>
+                    <div class="text-right mt-1">
+                      <a href="#" class="btn btn-bg text-light"
+                        >Дознај повеќе</a
+                      >
+                    </div>
+                  </div>
+                </div></a
+              >
+            </div>
+            <div class="cardjs marketing col-lg-4 col-md-6 col-12 mb-4">
+              <a href="#" class="card-link stretched-link">
+                <div class="card enlarge">
+                  <img
+                    class="card-img-top d-block w-100"
+                    src="./images/marketing5.jpg"
+                    alt="Card image cap"
+                    height="200px"
+                  />
+
+                  <div class="card-body">
+                    <span class="card-title bg-yellow px-2"
+                      >Академија за Маркетинг</span
+                    >
+                    <div class="card-text">
+                      <p class="title">Име на проект</p>
+                      <p class="f-size">
+                        Some quick example text to build on the card title and
+                        make up the bulk of the card's content.
+                      </p>
+                      <small class="font-weight-bold"
+                        >April-Oktomvri 2019</small
+                      >
+                    </div>
+                    <div class="text-right mt-1">
+                      <a href="#" class="btn btn-bg text-light"
+                        >Дознај повеќе</a
+                      >
+                    </div>
+                  </div>
+                </div></a
+              >
+            </div>
+
+            <!-- __________________________________________   -->
+
+            <div class="cardjs design col-lg-4 col-md-6 col-12 mb-4">
+              <a href="#" class="card-link stretched-link">
+                <div class="card enlarge">
+                  <img
+                    class="card-img-top d-block w-100"
+                    src="./images/dizajn4.jpg"
+                    alt="Card image cap"
+                    height="200px"
+                  />
+
+                  <div class="card-body">
+                    <span class="card-title bg-yellow px-2"
+                      >Академија за Дизајн</span
+                    >
+                    <div class="card-text ">
+                      <p class="title">Име на проект</p>
+                      <p class="f-size">
+                        Some quick example text to build on the card title and
+                        make up the bulk of the card's content.
+                      </p>
+                      <small class="font-weight-bold"
+                        >April-Oktomvri 2019</small
+                      >
+                    </div>
+                    <div class="text-right mt-1">
+                      <a href="#" class="btn btn-bg text-light"
+                        >Дознај повеќе</a
+                      >
+                    </div>
+                  </div>
+                </div></a
+              >
+            </div>
+            <div class="cardjs design col-lg-4 col-md-6 col-12 mb-4">
+              <a href="#" class="card-link stretched-link"
+                ><div class="card enlarge">
+                  <img
+                    class="card-img-top d-block w-100"
+                    src="./images/dizajn2.jpg"
+                    alt="Card image cap"
+                    height="200px"
+                  />
+
+                  <div class="card-body">
+                    <span class="card-title bg-yellow px-2"
+                      >Академија за Дизајн</span
+                    >
+                    <div class="card-text">
+                      <p class="title">Име на проект</p>
+                      <p class="f-size">
+                        Some quick example text to build on the card title and
+                        make up the bulk of the card's content.
+                      </p>
+                      <small class="font-weight-bold"
+                        >April-Oktomvri 2019</small
+                      >
+                    </div>
+                    <div class="text-right mt-1">
+                      <a href="#" class="btn btn-bg text-light"
+                        >Дознај повеќе</a
+                      >
+                    </div>
+                  </div>
+                </div></a
+              >
+            </div>
+            <div class="cardjs design col-lg-4 col-md-6 col-12 mb-4">
+              <a href="#" class="card-link stretched-link">
+                <div class="card enlarge design">
+                  <img
+                    class="card-img-top w-100 d-block"
+                    src="./images/dizajn3.jpg"
+                    alt="Card image cap"
+                    height="200px"
+                  />
+
+                  <div class="card-body">
+                    <span class="card-title bg-yellow px-2"
+                      >Академија за Дизајн</span
+                    >
+                    <div class="card-text">
+                      <p class="title">Име на проект</p>
+                      <p class="f-size">
+                        Some quick example text to build on the card title and
+                        make up the bulk of the card's content.
+                      </p>
+                      <small class="font-weight-bold"
+                        >April-Oktomvri 2019</small
+                      >
+                    </div>
+                    <div class="text-right mt-1">
+                      <a href="#" class="btn btn-bg text-light"
+                        >Дознај повеќе</a
+                      >
+                    </div>
+                  </div>
+                </div></a
+              >
+            </div>
+            <div class="cardjs design col-lg-4 col-md-6 col-12 mb-4">
+              <a href="#" class="card-link stretched-link">
+                <div class="card enlarge">
+                  <img
+                    class="card-img-top d-block w-100"
+                    src="./images/dizajn.jpg"
+                    alt="Card image cap"
+                    height="200px"
+                  />
+
+                  <div class="card-body">
+                    <span class="card-title bg-yellow px-2"
+                      >Академија за Дизајн</span
+                    >
+                    <div class="card-text">
+                      <p class="title">Име на проект</p>
+                      <p class="f-size">
+                        Some quick example text to build on the card title and
+                        make up the bulk of the card's content.
+                      </p>
+                      <small class="font-weight-bold"
+                        >April-Oktomvri 2019</small
+                      >
+                    </div>
+                    <div class="text-right mt-1">
+                      <a href="#" class="btn btn-bg text-light"
+                        >Дознај повеќе</a
+                      >
+                    </div>
+                  </div>
+                </div></a
+              >
+            </div>
+            </div>
+          
+          
+
+          <!-- Load more cards button  -->
+          <button
+            type="button"
+            id="load-more"
+            class="load"
+            data-toggle="tooltip"
+            data-placement="bottom"
+            title="Load More Cards"
+          >
+            <i class="fas fa-angle-double-right"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer  -->
+
+    <div class="container-fluid bg-dark">
+      <div class="row py-2">
+        <div class="col">
+          <p class="text-light text-center mb-0">
+            Изработено со <i class="fas fa-heart icon-footer "></i> од Маја студент на академијата за front-end
+            developers at Brainster
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Latest Font-Awesome CDN -->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+    <!-- jQuery library -->
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Latest Compiled Bootstrap 4.4.1 JavaScript -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+
+    <script>
+      $(document).ready(function () {
+        $(".menu__icon").click(function () {
+          $("body").toggleClass("menu_shown");
+        });
+      });
+    </script>
+
+    <!-- Changes on click  -->
+    <script>
+      document
+        .querySelector("#show-programming")
+        .addEventListener("change", showProgrammingCards);
+      document
+        .querySelector("#show-design")
+        .addEventListener("change", showDesignCards);
+      document
+        .querySelector("#show-marketing")
+        .addEventListener("change", showMarketingCards);
+
+      function showProgrammingCards() {
+        //odcheckiraj gi drugite checkboxovi
+        document.querySelector("#show-design").checked = false;
+        document.querySelector("#show-marketing").checked = false;
+
+        //Skrij gi site karticki
+        var allCards = document.querySelectorAll(".cardjs");
+        allCards.forEach(function (cardjs) {
+          cardjs.style.display = "none";
+        });
+
+        if (document.querySelector("#show-programming").checked) {
+          //Pokazi gi site so klasa programming
+          var programmingCards = document.querySelectorAll(".programming");
+          programmingCards.forEach(function (programmingCard) {
+            programmingCard.style.display = "inline-block";
+          });
+        } else {
+          var allCards = document.querySelectorAll(".cardjs");
+          allCards.forEach(function (cardjs) {
+            cardjs.style.display = "inline-block";
+          });
+        }
+      }
+
+      function showDesignCards() {
+        //odcheckiraj gi drugite checkboxovi
+        document.querySelector("#show-programming").checked = false;
+        document.querySelector("#show-marketing").checked = false;
+
+        //Skrij gi site karticki
+        var allCards = document.querySelectorAll(".cardjs");
+        allCards.forEach(function (cardjs) {
+          cardjs.style.display = "none";
+        });
+
+        if (document.querySelector("#show-design").checked) {
+          //Pokazi gi site so klasa design
+          var designCards = document.querySelectorAll(".design");
+          designCards.forEach(function (designCard) {
+            designCard.style.display = "inline-block";
+          });
+        } else {
+          var allCards = document.querySelectorAll(".cardjs");
+          allCards.forEach(function (cardjs) {
+            cardjs.style.display = "inline-block";
+          });
+        }
+      }
+
+      function showMarketingCards() {
+        //odcheckiraj gi drugite checkboxovi
+        document.querySelector("#show-design").checked = false;
+        document.querySelector("#show-programming").checked = false;
+
+        //Skrij gi site karticki
+        var allCards = document.querySelectorAll(".cardjs");
+        allCards.forEach(function (cardjs) {
+          cardjs.style.display = "none";
+        });
+
+        if (document.querySelector("#show-marketing").checked) {
+          //Pokazi gi site so klasa marketing
+          var designCards = document.querySelectorAll(".marketing");
+          designCards.forEach(function (designCard) {
+            designCard.style.display = "inline-block";
+          });
+        } else {
+          var allCards = document.querySelectorAll(".cardjs");
+          allCards.forEach(function (cardjs) {
+            cardjs.style.display = "inline-block";
+          });
+        }
+      }
+
+      //  load-more kopceto
+      document
+        .querySelector("#load-more")
+        .addEventListener("click", loadMoreCards);
+
+      function loadMoreCards() {
+        var allCards = document.querySelectorAll(".cardjs"); //10
+        var cardsShownAfterClick = 0;
+
+        allCards.forEach(function (cardjs) {
+          var allCssProps = window.getComputedStyle(cardjs);
+          if (allCssProps.display == "none") {
+            if (cardsShownAfterClick < 6) {
+              cardjs.style.display = "inline-block";
+              cardsShownAfterClick = cardsShownAfterClick + 1;
+            }
+          }
+        });
+
+        //Ako site karticki se prikazani, trgni go load-more kopceto
+        var allCards = document.querySelectorAll(".cardjs");
+        var numberOfHiddenCards = 0;
+        allCards.forEach(function (cardjs) {
+          var allCssProps = window.getComputedStyle(cardjs);
+          if (allCssProps.display == "none") {
+            numberOfHiddenCards = numberOfHiddenCards + 1;
+          }
+        });
+
+        if (numberOfHiddenCards == 0) {
+          document.querySelector("#load-more").style.display = "none";
+        }
+      }
+
+      var element = document.querySelector("#show-programming");
+      console.log(window.getComputedStyle(element));
+    </script>
+  </body>
+</html>
